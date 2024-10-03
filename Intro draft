@@ -1,0 +1,11 @@
+**Objective**  
+The primary goal of this study is to develop a machine learning (ML) system for accurate and efficient detection of knee arthritis. The system will analyze data from medical imaging, electronic health records, and patient-reported outcomes to diagnose knee arthritis. Key objectives include data collection and pre-processing, developing and training ML algorithms, and evaluating the model's performance based on sensitivity, specificity, and accuracy to support medical professionals in arthritis diagnosis.
+
+**Scope**  
+The future of arthritis detection using ML is promising, with advancements in algorithms and access to medical imaging improving diagnosis accuracy. Automated ML-based systems could speed up diagnoses, reduce manual interpretation errors, and integrate with wearable devices for real-time monitoring. These systems could track arthritis progression over time, allowing for early intervention and improved disease management.
+
+**Methodology**  
+A dataset of 1,650 digitized X-ray images of knee joints, graded by medical experts using the Kellgren and Lawrence scale, was used. The EfficientNetB5 deep learning model, leveraging transfer learning and image augmentation, was trained on 90% of the data and tested on the remaining 10%. The model was fine-tuned for arthritis classification into grades 0 (normal) to 4 (severe) based on cartilage pixel density.
+
+**Results**  
+The model achieved a peak training loss of 0.2211 and accuracy of 0.9796, while the testing loss was 1.5748, with an accuracy of 0.6138. The classification report indicated the model successfully identified the "Doubtful" class with a probability of 0.8850.
